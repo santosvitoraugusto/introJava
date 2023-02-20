@@ -3,9 +3,6 @@ package intro;
 
 //2 - Referências as bibliotecas
 
-
-import java.sql.SQLOutput;
-
 //3 - Classe
 public class Medidas {
     //3.1 - atributos - características
@@ -17,9 +14,11 @@ public class Medidas {
         System.out.println("Calculo de area");
         System.out.println("Largura x comprimento");
 
+        calcularAreaModoCompacto();
+        calcularAreaModoExtenso();
     }
 
-    public void calcularAreaModoExtenso(){
+    public static void calcularAreaModoExtenso(){
         int largura;
         int comprimento;
         int resultado;
@@ -27,12 +26,12 @@ public class Medidas {
         largura = 4;
         comprimento = 3;
         resultado = largura * comprimento;
-        System.out.println("a area é de " + resultado + "m²");
+        System.out.println("a area é de " + resultado + "m² - modo extenso");
     }
-    public void calcularAreaModoCompacto(){
+    public static void calcularAreaModoCompacto(){
         int largura = 5;
         int comprimento = 7;
-        System.out.println("a area é de " + largura*comprimento + "m²");
+        System.out.println("a area é de " + largura*comprimento + "m² - modo compacto");
     }
 
 
