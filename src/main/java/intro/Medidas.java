@@ -14,7 +14,7 @@ public class Medidas {
     //3.2 - métodos e funções (método: faz e não fala nada / função: faz e retorna)
     public static void main(String[] args){
         System.out.println("Hello world");
-
+        System.out.println("Calculo de area");
 
 
     }
