@@ -16,6 +16,20 @@ public class Medidas {
 
         calcularAreaModoCompacto();
         calcularAreaModoExtenso();
+
+        String teste = " ";
+
+        switch (teste){
+            case "1":
+                System.out.println("imprimir 1");
+                break;
+            case "2":
+                System.out.println("imprimir 2");
+                break;
+            default:
+                System.out.println("precisa escolher alguma opção");
+                break;
+        }
     }
 
     public static void calcularAreaModoExtenso(){
